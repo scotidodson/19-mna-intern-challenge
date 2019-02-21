@@ -1,0 +1,101 @@
+body {
+  background: #ffffe0;
+  color: #addfad;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header img {
+  max-width: 80px;
+}
+
+.pattern-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 5% 0;
+}
+.pattern-holder img {
+  width: 300px;
+  height: 200px;
+}
+.pattern-holder .pattern-card {
+  overflow: hidden;
+  margin: 1%;
+  text-align: center;
+  font-weight: 700;
+  border: 2px solid lightgray;
+  border-radius: 10%;
+}
+
+.footer {
+  text-align: center;
+  position: absolute;
+  font-family: times, serif;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  background: pink;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .pattern-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pattern-holder img {
+    width: 100%;
+  }
+  .pattern-holder .pattern-card {
+    overflow: hidden;
+    margin: 1%;
+    text-align: center;
+    font-weight: 700;
+    border: 2px solid lightgray;
+    border-radius: 10%;
+  }
+}
+/* POP UP STYLING */
+.close {
+  color: #3d81ce;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  cursor: pointer;
+}
+
+.pattern-popup {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.pattern-content {
+  background-color: #fefefe;
+  border-width: 2px;
+  border-color: #3d81ce;
+  border-radius: 5px;
+  margin: 5% auto;
+  padding: 3%;
+  width: 75%;
+}
+
+/*# sourceMappingURL=main.css.map */
