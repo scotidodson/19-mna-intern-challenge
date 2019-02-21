@@ -1,4 +1,4 @@
-# 19-mna-intern-challenge
+# minds + assembly intern challenge
 Challenge for internship applicants.
 
 ## Instructions
